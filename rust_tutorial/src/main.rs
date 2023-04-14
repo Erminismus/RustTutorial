@@ -1,7 +1,8 @@
 #![allow(unused)]
-mod consts;
-mod max;
-
+//mod consts;
+//mod max;
+//mod rnd;
+mod ternary;
 //use consts;
 
 use std::io;
@@ -19,12 +20,13 @@ fn main() {
 
     io::stdin().read_line(&mut name).expect("Failed to read line"); // We will make name mutable
     
-
-    
     println!("Hello {}!, {}",name.trim_end(),greeting); //trim end will remove the newline 
 
-    println!("{}",consts::add_nums(2.1,3.6));
-    max::show_max();
+    println!("{}",ternary::ternary_test(9));
 
+    //println!("{}",consts::add_nums(2.1,3.6));
+    //max::show_max();
+
+    //println!("{}",rnd::rnd())
 }
 
