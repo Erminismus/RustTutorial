@@ -1,5 +1,6 @@
 #![allow(unused)]
 mod consts;
+mod max;
 
 //use consts;
 
@@ -22,7 +23,8 @@ fn main() {
     
     println!("Hello {}!, {}",name.trim_end(),greeting); //trim end will remove the newline 
 
-    println!("{}",consts::add_nums(2.1,3.6))
-    
+    println!("{}",consts::add_nums(2.1,3.6));
+    max::show_max();
+
 }
 
