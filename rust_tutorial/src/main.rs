@@ -1,11 +1,14 @@
 #![allow(unused)]
+mod consts;
+
+//use consts;
 
 use std::io;
 use rand::Rng;
 use std::io::{Write,BufReader,BufRead,ErrorKind};
 use std::fs::File;
 
-use std::cmp::Ordering;
+
 
 fn main() {
     println!("What is your name");
@@ -16,5 +19,10 @@ fn main() {
     io::stdin().read_line(&mut name).expect("Failed to read line"); // We will make name mutable
     
 
+    
     println!("Hello {}!, {}",name.trim_end(),greeting); //trim end will remove the newline 
+
+    println!("{}",consts::add_nums(2.1,3.6))
+    
 }
+
