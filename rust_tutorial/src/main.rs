@@ -2,8 +2,10 @@
 //mod consts;
 //mod max;
 //mod rnd;
-mod ternary;
+//mod ternary;
 //use consts;
+//mod match;
+mod compare;
 
 use std::io;
 use rand::Rng;
@@ -22,8 +24,9 @@ fn main() {
     
     println!("Hello {}!, {}",name.trim_end(),greeting); //trim end will remove the newline 
 
-    println!("{}",ternary::ternary_test(9));
-
+    //println!("{}",ternary::ternary_test(9));
+    //match::isd();
+    compare::cmpre();
     //println!("{}",consts::add_nums(2.1,3.6));
     //max::show_max();
 
