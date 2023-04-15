@@ -6,8 +6,9 @@
 //use consts;
 //mod match;
 //mod compare;
-
-mod pool;
+mod strg;
+//mod pool;
+//mod tupple;
 
 use std::io;
 use rand::Rng;
@@ -31,9 +32,9 @@ fn main() {
     //compare::cmpre();
     //println!("{}",consts::add_nums(2.1,3.6));
     //max::show_max();
-    pool::pool();
-
-
+    //pool::pool();
+    //tupple::tupple();
+    strg::strg();
     //println!("{}",rnd::rnd())
 }
 
