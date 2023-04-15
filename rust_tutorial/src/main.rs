@@ -5,7 +5,9 @@
 //mod ternary;
 //use consts;
 //mod match;
-mod compare;
+//mod compare;
+
+mod pool;
 
 use std::io;
 use rand::Rng;
@@ -26,9 +28,11 @@ fn main() {
 
     //println!("{}",ternary::ternary_test(9));
     //match::isd();
-    compare::cmpre();
+    //compare::cmpre();
     //println!("{}",consts::add_nums(2.1,3.6));
     //max::show_max();
+    pool::pool();
+
 
     //println!("{}",rnd::rnd())
 }
